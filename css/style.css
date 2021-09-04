@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar span{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+.banner img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    
+}
+.about{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 440px;
+}
+.about-h1{
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    width: 20%;
+}
+.about-p{
+    background-color: white;
+    width: 47%;
+    padding: 30px 20px;
+    font-size: 20px;
+}
+.bio{
+    position: relative;
+    top: 530px;
+    background-color:rgb(206, 158, 152);
+    padding: 120px 150px;
+    font-size: 30px;
+    width: 100%;
+}
+.bio-p{
+    color: white;
+    width: 90%;
+    font-weight: bolder;
+
+}
+.bio-pp{
+    color: snow;
+    width: 58%;
+    font-size: 20px;
+}
+.gallery{
+    position: relative;
+    top: 530px;
+    display: flex;
+}
+.gallery img{
+    width: 100%;
+    height: 400px;
+}
+.gallery-second{
+    position: relative;
+    top: 530px;
+    display: flex;
+}
+.gallery-second img{
+    width: 100%;
+    height: 400px;
+}
+.contact-form{
+    position: relative;
+    top: 530px;
+    background-color: rgb(224, 172, 181);
+    text-align: center;
+    padding: 50px;
+}
+.contact-form h1,h3{
+    color: whitesmoke;
+}
+.contact-form h1{
+    font-size: 50px;
+}
+.contact-form h3{
+    font-size: 20px;
+}
+.contact-form form{
+    font-size: 30px;
+}
+.contact-form input[type="text"],input[type="email"]{
+    border-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.contact-form button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight:500;
+}
+.article{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 530px ;
+    width: 100%;
+    padding: 40px;
+}
+.article img{
+    height: 400px;
+    width: 20vw;
+    margin-right: 40px;
+    
+}
+.article p{
+    height: 200px;
+    width: 40vw;
+}
+.article span{
+    color: rgb(233, 102, 123);
+    font-family: cookie;
+    font-size: 20px;
+}
+.slider{
+    position: relative;
+    top: 530px;
+    width: 100%;
+    background-color: rgb(209, 165, 173);
+    padding: 30px;
+    text-align: center;
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.slider h1{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.slider img{
+    margin-right: 10px;
+    padding-bottom: 20px;
+    
+}
+.slider span{
+    color: white;
+    font-size: 35px;
+}
+.product{
+    position: relative;
+    top: 530px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+}
+.product-img{
+    display: flex;
+    height: 250px;
+}
+.product-p{
+    width: 20%;
+    padding-top: 10px;
+    margin-left: 70px;
+}
+.product-img img{
+    margin-right: 15px;
+    width: 55%;
+}
+.product-p span{
+    font-weight: 900;
+}
+.product-p button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.product-p p{
+    font-weight: lighter;
+}
+.subscribe{
+    display: flex;
+    position: relative;
+    top: 530px;
+    width: 100%;
+}
+.subscribe img{
+    height: 550px;
+    width: 50vw;
+}
+.subscribe2{
+    margin-left: 40px;
+   padding: 100px 10px;
+   width: 40vw;
+   text-align: center;
+   font-size: 25px;
+}
+.subscribe h1{
+    border-top: rgb(206, 150, 159) solid 7px;
+    font-size: 60px;
+}
+.subscribe input[type="text"],input[type="email"]{
+    margin: 10px;
+    border-radius: 0;
+    border: rgb(204, 198, 198) 1px solid;
+}
+.subscribe input[type="text"]{
+    padding: 10px;
+}
+.subscribe button{
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.subscribe p{
+    font-size:14px;
+}
+.subscribe a{
+    color: black;
+    margin-right: 10px;
+}
